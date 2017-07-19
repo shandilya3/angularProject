@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  vehicleName = 'Honda Civic 2014 EX!';
+
+handleEventClicked(data) {
+  console.log('received data is ' + data);
 }
+}
+
